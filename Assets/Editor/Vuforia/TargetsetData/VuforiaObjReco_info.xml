@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-09 21:52:51" name="AkashRouter" targetId="3964d1b0b7a14f38a3636ab64aed35ac" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-09 11:16:55" name="innolatestRouter" targetId="4775037a7222442cb05d9b5648876642" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-03 16:00:29" name="routerLabinno" targetId="937518dc067045dba5368e768307d56c" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-09-28 12:32:43" name="RouterModel" targetId="e9bd3ccaa56b405191ff8a44bb4a9f01" version="2.0" />
+  </TargetSet>
+</QCARInfo>

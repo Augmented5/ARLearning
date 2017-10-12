@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="95f5205a17a7546c265d4a27d1e6f8be7b6f3f03">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\build\intermediates\pre-dexed\debug\VuforiaUnityPlayer_f4e2188ed916a496e30a9e44eae88dbd6b1f0bc6.jar" />
+    </item>
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\libs\unity-classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="4cdcec43cf45828036b0a12c88602e60520eac00">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\build\intermediates\pre-dexed\debug\unity-classes_b6a60e478722aa1e92d5e1b171831202a05b93eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\libs\Vuforia.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="be3db5d282d7094986c342631085ca4d84c02603">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\build\intermediates\pre-dexed\debug\Vuforia_8a17d30dc24104a49f12f20ba7aa8cf81daea325.jar" />
+    </item>
+
+</items>
