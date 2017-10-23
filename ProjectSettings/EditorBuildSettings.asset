@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SceneRealGR1.unity
     guid: 06257e83c841aa8498f616446e34289b
+  - enabled: 1
+    path: Assets/SceneRealGRChennai.unity
+    guid: b42e0eec20deb9b41a0ead2af5fc2318

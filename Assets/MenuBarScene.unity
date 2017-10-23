@@ -243,7 +243,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SetTop Box
+  m_Text: Beetel Router
 --- !u!222 &47241330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Gateway Router
+  m_Text: Netgear Router
 --- !u!222 &240859196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1703,8 +1703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 191.96, y: 95.3}
+  m_AnchoredPosition: {x: 0, y: 7.8}
+  m_SizeDelta: {x: 191.96, y: 102.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685543495
 MonoBehaviour:
@@ -1727,7 +1727,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
-    m_FontSize: 18
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1738,13 +1738,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Step1
+  m_Text: 'Step1:- Select the respective option from the Menu panel.
 
-    Step2
+    Step2:- Place Object/Image at 20 cm distance apart from tablet.
 
-    Step3
+    Step3:- Hold the Tablet still in order to scan the object/image.
 
-    Step4'
+'
 --- !u!222 &685543496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1834,7 +1834,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

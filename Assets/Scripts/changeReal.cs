@@ -26,7 +26,7 @@ public class changeReal : MonoBehaviour {
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
-		s1=Resources.LoadAll<Sprite>("RouterAllSteps 1");
+		s1=Resources.LoadAll<Sprite>("RealRouter");
 		anime0 = GetComponent<Animation>();
 		anime0.Stop();
 		anime1 = GetComponent<Animation>();
@@ -104,14 +104,7 @@ public class changeReal : MonoBehaviour {
 					 computer.SetActive (true); 
 					 break;
 				    }
-			case 5: {
-				     anime1.Stop();
-					 anime2.Stop();
-					 anime4.Stop();
-					 computer.SetActive (true); 
-					 				
-					 break;
-				    }
+			
 		}
 	}
 	public void On_PrevClick_Button () {
@@ -177,16 +170,7 @@ public class changeReal : MonoBehaviour {
 					
 					 break;
 				    }
-			case 5: {
-				     anime1.Stop();
-					 anime2.Stop();
-					 anime4.Stop();
-					 
-					 computer.SetActive (true); 
-					 
-					
-					 break;
-				    }
+			
 		}
 	}
 	

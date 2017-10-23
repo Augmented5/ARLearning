@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\TargetsetData\ArLearn_info.xml" />
+    <None Include="Assets\Editor\Vuforia\TargetsetData\ChennaiRouter_info.xml" />
     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaObjReco_info.xml" />
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
@@ -173,6 +174,7 @@
     <None Include="Assets\StreamingAssets\Vuforia\ArLearn.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\ArLearn_OT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\ButtonDB.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\ChennaiRouter_OT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\ONT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\STB.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaObjReco_OT.xml" />

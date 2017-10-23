@@ -44,6 +44,7 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - ChennaiRouter_OT
     - VuforiaObjReco_OT
     - ONT
     - STB
@@ -52,6 +53,7 @@ MonoBehaviour:
     - UserInterface
     - ArLearn
     dataSetsToActivate:
+    - ChennaiRouter_OT
     - ArLearn
     - ArLearn_OT
     - VuforiaObjReco_OT
