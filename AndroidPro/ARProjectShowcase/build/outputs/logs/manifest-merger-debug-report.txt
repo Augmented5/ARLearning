@@ -71,7 +71,7 @@ ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\A
 		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:10:83-141
 	android:isGame
 		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:10:142-163
-activity#com.abhishek.ARlearn.UnityPlayerActivity
+activity#com.abhishek.ARlearn.UnityPlayerNativeActivity
 ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:11:5-18:16
 	android:screenOrientation
 		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:11:48-85
@@ -82,7 +82,7 @@ ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\A
 	android:configChanges
 		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:11:118-291
 	android:name
-		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:11:292-347
+		ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:11:292-353
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\TEST\Documents\Abhishek_AR\ARLearn\ARLearn\Arlearn\ARlearn\AndroidPro\ARProjectShowcase\src\main\AndroidManifest.xml:12:7-15:23
 action#android.intent.action.MAIN
