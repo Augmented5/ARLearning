@@ -1323,6 +1323,8 @@ MonoBehaviour:
   smalltv: {fileID: 1457561852}
   girl: {fileID: 1865120794}
   smallfurniture: {fileID: 367203832}
+  prevShow: {fileID: 1214346872}
+  nextShow: {fileID: 898819317}
 --- !u!4 &684708760
 Transform:
   m_ObjectHideFlags: 0
@@ -1654,7 +1656,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214346870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 

@@ -25,6 +25,8 @@ public class change : MonoBehaviour {
 	public GameObject lego ;
 	public GameObject model;
 	public GameObject stb;
+	public Text prevShow;
+	public Text nextShow;
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
@@ -66,12 +68,14 @@ public class change : MonoBehaviour {
 		switch(count)
 		{
 			case 0: {
+					prevShow.GetComponent<Text>().enabled = false;
 					 anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
 					 break;
 					}
 			case 1:	{   
+					prevShow.GetComponent<Text>().enabled = true;
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
@@ -100,6 +104,7 @@ public class change : MonoBehaviour {
 					 break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -108,6 +113,7 @@ public class change : MonoBehaviour {
 					 break;
 				    }
 			case 5: {
+					nextShow.GetComponent<Text>().enabled = false;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -136,6 +142,7 @@ public class change : MonoBehaviour {
 		switch(count)
 		{
 			case 0: {
+					prevShow.GetComponent<Text>().enabled = false;
 					 anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -145,6 +152,7 @@ public class change : MonoBehaviour {
 					 break;
 					}
 			case 1:	{   
+					prevShow.GetComponent<Text>().enabled = true;  
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
@@ -173,6 +181,7 @@ public class change : MonoBehaviour {
 					 break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -185,6 +194,7 @@ public class change : MonoBehaviour {
 					 break;
 				    }
 			case 5: {
+					 nextShow.GetComponent<Text>().enabled = false;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();

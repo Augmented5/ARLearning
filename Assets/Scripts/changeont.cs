@@ -27,6 +27,8 @@ public class changeont : MonoBehaviour {
 	public GameObject redhouse ;
 	public GameObject lego ;
 	public GameObject modem;
+	public Text prevShow;
+	public Text nextShow;
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
@@ -73,6 +75,7 @@ public class changeont : MonoBehaviour {
 		switch(count)
 		{
 			case 0:	{ 
+					prevShow.GetComponent<Text>().enabled = false;
 					 bluehouse.SetActive (true); 
 					 redhouse .SetActive(true);
 			         anime1.Stop();
@@ -83,6 +86,7 @@ public class changeont : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
+					prevShow.GetComponent<Text>().enabled = true;
 				     bluehouse.SetActive (false); 
 					 redhouse .SetActive(false);
 				     ont.SetActive(true);
@@ -113,6 +117,7 @@ public class changeont : MonoBehaviour {
 					 anime3.Play(); break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 					 ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -125,6 +130,7 @@ public class changeont : MonoBehaviour {
 					 break;
 					   }
 			case 5: {
+					nextShow.GetComponent<Text>().enabled = false;
 					 ont.SetActive(false);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -158,6 +164,7 @@ public class changeont : MonoBehaviour {
 		{
 			
 			case 0:	{ 
+					prevShow.GetComponent<Text>().enabled = false;
 					 bluehouse.SetActive (true); 
 					 redhouse .SetActive(true);
 					 ont.SetActive(false);
@@ -173,6 +180,7 @@ public class changeont : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
+					prevShow.GetComponent<Text>().enabled = true;  
 					 bluehouse.SetActive (false); 
 					 redhouse .SetActive(false);
 					 ont.SetActive(true);
@@ -210,6 +218,7 @@ public class changeont : MonoBehaviour {
 					 break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -224,6 +233,7 @@ public class changeont : MonoBehaviour {
 					 break;
 				    }
 			case 5: {
+					nextShow.GetComponent<Text>().enabled = false;
 					 ont.SetActive(false);
 					 coax.SetActive (false); 
 					 power.SetActive (false);

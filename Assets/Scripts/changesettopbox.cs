@@ -29,6 +29,8 @@ public class changesettopbox : MonoBehaviour {
 	public GameObject smalltv ;
 	public GameObject girl ;
 	public GameObject smallfurniture ;
+	public Text prevShow;
+	public Text nextShow;
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
@@ -74,7 +76,7 @@ public class changesettopbox : MonoBehaviour {
 		switch(count)
 		{
 			case 0:	{ 
-			         
+			         prevShow.GetComponent<Text>().enabled = false;
 					 anime1.Play();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -83,6 +85,7 @@ public class changesettopbox : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
+					prevShow.GetComponent<Text>().enabled = true;
 					power.SetActive (true); 
 					anime1.Stop();
 					 anime3.Stop();
@@ -109,6 +112,7 @@ public class changesettopbox : MonoBehaviour {
 					 anime4.Play(); break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -123,6 +127,7 @@ public class changesettopbox : MonoBehaviour {
 					 break;
 				    }
 			case 5: {
+					nextShow.GetComponent<Text>().enabled = false;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -159,6 +164,7 @@ public class changesettopbox : MonoBehaviour {
 		{
 			
 			case 0:	{ 
+					prevShow.GetComponent<Text>().enabled = false;
 					coax.SetActive(true);
 					anime1.Play();
 					power.SetActive (false);
@@ -169,6 +175,7 @@ public class changesettopbox : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
+					prevShow.GetComponent<Text>().enabled = true; 
 					 power.SetActive (true);
 					 rca.SetActive (false);
 					 hdmi.SetActive (false);
@@ -202,6 +209,7 @@ public class changesettopbox : MonoBehaviour {
 					 break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -214,6 +222,7 @@ public class changesettopbox : MonoBehaviour {
 					 break;
 			        }
 			case 5: {
+					nextShow.GetComponent<Text>().enabled = false;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();

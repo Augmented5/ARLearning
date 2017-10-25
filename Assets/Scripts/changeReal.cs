@@ -18,6 +18,8 @@ public class changeReal : MonoBehaviour {
 	public Button previousButton;
 	public Button btn;
 	public Button btn1;
+	public Text prevShow;
+	public Text nextShow;
 	public GameObject ethernet ;
 	public GameObject dsl ;
 	public GameObject power ;
@@ -63,12 +65,14 @@ public class changeReal : MonoBehaviour {
 		switch(count)
 		{
 			case 0: {
+					prevShow.GetComponent<Text>().enabled = false;
 					 anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
 					 break;
 					}
 			case 1:	{   
+					 prevShow.GetComponent<Text>().enabled = true;
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
@@ -94,9 +98,11 @@ public class changeReal : MonoBehaviour {
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
 					 computer.SetActive (false); 
+					 nextShow.GetComponent<Text>().enabled = true;
 					 break;
 					}
 			case 4: {
+					nextShow.GetComponent<Text>().enabled = false;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -124,6 +130,7 @@ public class changeReal : MonoBehaviour {
 		switch(count)
 		{
 			case 0: {
+					prevShow.GetComponent<Text>().enabled = false;
 					 anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
@@ -132,7 +139,8 @@ public class changeReal : MonoBehaviour {
 					 power.SetActive (false);
 					 break;
 					}
-			case 1:	{   
+			case 1:	{
+					prevShow.GetComponent<Text>().enabled = true;  
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
@@ -151,6 +159,7 @@ public class changeReal : MonoBehaviour {
 					 break;
 					 }
 			case 3: {
+					nextShow.GetComponent<Text>().enabled = true;
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Play();
@@ -158,6 +167,7 @@ public class changeReal : MonoBehaviour {
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
 					 computer.SetActive (false); 
+
 					 break;
 					}
 			case 4: {
@@ -166,7 +176,7 @@ public class changeReal : MonoBehaviour {
 					 anime4.Stop();
 					 ethernet.SetActive (false);
 					 computer.SetActive (true); 
-					 
+					 nextShow.GetComponent<Text>().enabled = false;
 					
 					 break;
 				    }

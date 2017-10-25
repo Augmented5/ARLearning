@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214346870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -2118,6 +2118,8 @@ MonoBehaviour:
   previousButton: {fileID: 2113859296}
   btn: {fileID: 0}
   btn1: {fileID: 0}
+  prevShow: {fileID: 1214346872}
+  nextShow: {fileID: 898819317}
   ethernet: {fileID: 788768196}
   dsl: {fileID: 1563287350}
   power: {fileID: 1214333601}
