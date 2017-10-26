@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SceneGR1.unity
+- path: Assets/HydTrigger.unity
   isLoaded: 1
   isActive: 1

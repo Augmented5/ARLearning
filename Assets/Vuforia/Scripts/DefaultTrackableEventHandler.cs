@@ -17,7 +17,7 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
-    
+	
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -82,7 +82,7 @@ namespace Vuforia
             {
                 component.enabled = true;
             }
-
+			
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -103,7 +103,7 @@ namespace Vuforia
             {
                 component.enabled = false;
             }
-
+				
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 

@@ -24,7 +24,7 @@ public class changeReal : MonoBehaviour {
 	public GameObject dsl ;
 	public GameObject power ;
 	public GameObject computer ;
-
+	
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
@@ -40,7 +40,6 @@ public class changeReal : MonoBehaviour {
 		ethernet = Instantiate(Resources.Load("ethernet_assem(Step_ap214)", typeof(GameObject))) as GameObject;
 		power = Instantiate(Resources.Load("Power", typeof(GameObject))) as GameObject;
 		dsl = Instantiate(Resources.Load("2377477_2213145-2", typeof(GameObject))) as GameObject;
-		
 		computer=Instantiate(Resources.Load("computer", typeof(GameObject))) as GameObject;
 		
 	}
