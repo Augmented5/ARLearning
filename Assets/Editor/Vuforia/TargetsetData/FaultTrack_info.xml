@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-28 12:07:45" name="powercableAkash" targetId="0343de44c6ba4386b5d0a819df217243" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-25 22:05:08" name="PowerCircle" targetId="eeeb02dfff3041a58c3716d50efe5424" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-27 15:57:20" name="TrackRouter2" targetId="adbf7f379c3047ee8b17df091c89ec55" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-27 21:40:28" name="TrackRouter1" targetId="a9939e84d9694b318620b1bfe3d0e5bb" version="2.0" />
+  </TargetSet>
+</QCARInfo>

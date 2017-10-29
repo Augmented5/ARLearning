@@ -75,7 +75,8 @@ public class changeont : MonoBehaviour {
 		switch(count)
 		{
 			case 0:	{ 
-					prevShow.GetComponent<Text>().enabled = false;
+					 prevShow.GetComponent<Text>().enabled = false;
+					 nextShow.GetComponent<Text>().enabled = true;
 					 bluehouse.SetActive (true); 
 					 redhouse .SetActive(true);
 			         anime1.Stop();
@@ -86,8 +87,9 @@ public class changeont : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
-					prevShow.GetComponent<Text>().enabled = true;
-				     bluehouse.SetActive (false); 
+					 prevShow.GetComponent<Text>().enabled = true;
+				 	 nextShow.GetComponent<Text>().enabled = true;
+					 bluehouse.SetActive (false); 
 					 redhouse .SetActive(false);
 				     ont.SetActive(true);
 					 coax.SetActive (true); 
@@ -97,7 +99,9 @@ public class changeont : MonoBehaviour {
 					 anime1.Play(); break;
 					 }
 			case 2: {
-				     ont.SetActive(true);
+					 prevShow.GetComponent<Text>().enabled = true;
+					 nextShow.GetComponent<Text>().enabled = true;
+					 ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (true);
 					 anime1.Stop();
@@ -107,6 +111,8 @@ public class changeont : MonoBehaviour {
 					  break;
 					}
 			case 3: {
+					 prevShow.GetComponent<Text>().enabled = true;
+				     nextShow.GetComponent<Text>().enabled = true;
 					 ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -117,7 +123,8 @@ public class changeont : MonoBehaviour {
 					 anime3.Play(); break;
 					}
 			case 4: {
-					nextShow.GetComponent<Text>().enabled = true;
+					 prevShow.GetComponent<Text>().enabled = true;
+					 nextShow.GetComponent<Text>().enabled = true;
 					 ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -130,7 +137,8 @@ public class changeont : MonoBehaviour {
 					 break;
 					   }
 			case 5: {
-					nextShow.GetComponent<Text>().enabled = false;
+					 prevShow.GetComponent<Text>().enabled = true;
+				     nextShow.GetComponent<Text>().enabled = false;
 					 ont.SetActive(false);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -164,7 +172,8 @@ public class changeont : MonoBehaviour {
 		{
 			
 			case 0:	{ 
-					prevShow.GetComponent<Text>().enabled = false;
+					 prevShow.GetComponent<Text>().enabled = false;
+					 nextShow.GetComponent<Text>().enabled = true;
 					 bluehouse.SetActive (true); 
 					 redhouse .SetActive(true);
 					 ont.SetActive(false);
@@ -180,7 +189,8 @@ public class changeont : MonoBehaviour {
 					 break;
 	        		}
 			case 1: {
-					prevShow.GetComponent<Text>().enabled = true;  
+					 prevShow.GetComponent<Text>().enabled = true; 
+				     nextShow.GetComponent<Text>().enabled = true;
 					 bluehouse.SetActive (false); 
 					 redhouse .SetActive(false);
 					 ont.SetActive(true);
@@ -194,6 +204,8 @@ public class changeont : MonoBehaviour {
 					 anime1.Play();  break;
 					 }
 			case 2: {
+					 prevShow.GetComponent<Text>().enabled = true;
+					 nextShow.GetComponent<Text>().enabled = true;
 					 ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (true);
@@ -206,6 +218,8 @@ public class changeont : MonoBehaviour {
 					  break;
 					}
 			case 3: {
+				     prevShow.GetComponent<Text>().enabled = true;
+				     nextShow.GetComponent<Text>().enabled = true;
 				     ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -218,7 +232,8 @@ public class changeont : MonoBehaviour {
 					 break;
 					}
 			case 4: {
-					nextShow.GetComponent<Text>().enabled = true;
+				     prevShow.GetComponent<Text>().enabled = true;
+					 nextShow.GetComponent<Text>().enabled = true;
 				     ont.SetActive(true);
 					 coax.SetActive (false); 
 					 power.SetActive (false);
@@ -233,7 +248,8 @@ public class changeont : MonoBehaviour {
 					 break;
 				    }
 			case 5: {
-					nextShow.GetComponent<Text>().enabled = false;
+					 prevShow.GetComponent<Text>().enabled = true;
+					 nextShow.GetComponent<Text>().enabled = false;
 					 ont.SetActive(false);
 					 coax.SetActive (false); 
 					 power.SetActive (false);

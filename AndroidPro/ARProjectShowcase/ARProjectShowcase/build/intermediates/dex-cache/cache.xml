@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="95f5205a17a7546c265d4a27d1e6f8be7b6f3f03">
+        <dex dex="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\build\intermediates\pre-dexed\debug\VuforiaUnityPlayer_e4bb8afed67675c2c0e596e415cd6c731b52f586.jar" />
+    </item>
+    <item
+        jar="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\libs\unity-classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="4cdcec43cf45828036b0a12c88602e60520eac00">
+        <dex dex="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\build\intermediates\pre-dexed\debug\unity-classes_33b23491b51505eb2941c98b02228967e9d2f3ac.jar" />
+    </item>
+    <item
+        jar="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\libs\Vuforia.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="be3db5d282d7094986c342631085ca4d84c02603">
+        <dex dex="F:\Abhishek&apos;s drive\CodeZone\Unity\Arlearning Project showcase\ARLearning\AndroidPro\ARProjectShowcase\ARProjectShowcase\build\intermediates\pre-dexed\debug\Vuforia_85a9bbf99f8a3aec6c0c266949069cfe7855858a.jar" />
+    </item>
+
+</items>

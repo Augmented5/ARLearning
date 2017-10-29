@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-28 21:35:00" name="fevistick" targetId="096cf6ed5edf4e40b7ee63845c281217" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-28 19:29:43" name="PartialRouter" targetId="480c729bb7fd4406aeb58926130e6504" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-28 18:34:29" name="TrackRouterModel3" targetId="89a4e328788b44c79ce765df54c5056f" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-28 18:48:53" name="TrackRouterModel2" targetId="62788601585e4c78a6102ab38926ed47" version="2.0" />
+  </TargetSet>
+</QCARInfo>

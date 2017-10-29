@@ -24,7 +24,7 @@ public class changeReal : MonoBehaviour {
 	public GameObject dsl ;
 	public GameObject power ;
 	public GameObject computer ;
-	
+	public GameObject virtualRouter ;
 	void Awake () {
 		btn = nextButton.GetComponent<Button>();
 		btn1 = previousButton.GetComponent<Button>();
@@ -41,7 +41,7 @@ public class changeReal : MonoBehaviour {
 		power = Instantiate(Resources.Load("Power", typeof(GameObject))) as GameObject;
 		dsl = Instantiate(Resources.Load("2377477_2213145-2", typeof(GameObject))) as GameObject;
 		computer=Instantiate(Resources.Load("computer", typeof(GameObject))) as GameObject;
-		
+		virtualRouter=Instantiate(Resources.Load("RouterNew", typeof(GameObject))) as GameObject;
 	}
 	public void ChangeScene (string a)
 	{
@@ -105,6 +105,7 @@ public class changeReal : MonoBehaviour {
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
+					 virtualRouter.SetActive(false);
 					 ethernet.SetActive (false);
 					 computer.SetActive (true); 
 					 break;
@@ -165,8 +166,8 @@ public class changeReal : MonoBehaviour {
 					 ethernet.SetActive (true);         // setting models enable
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
-					 computer.SetActive (false); 
-
+					 computer.SetActive (false); 	
+				     virtualRouter.SetActive(true);
 					 break;
 					}
 			case 4: {

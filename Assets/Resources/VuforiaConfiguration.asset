@@ -15,8 +15,8 @@ MonoBehaviour:
     vuforiaLicenseKey: AW+6HmL/////AAAAGT7IKui7lkl4hORXtFo1jLlX3VSTKrz87PLWEi3uwMPqMywOP9dRU63qlqnig3LIDackRs9J7mx6QNArGG96LKmmtkoE0rgWuNRGyCcGOR5g9+4AGiNTCmh0PiWaqoq4ziMyOdjO0at9YgsFJXSykKG4pJt7DhUK/ONWALEEbKTd8Z6BKimJNi5UZJBsPLNARfQSOjgklcC1B67/sUzPkmufN6O2FdpC8B310thaynUD+u0yyJ+HA2Ecg5VaF2cGiiWQSrxSIye8rOReT8Xct5zfw+JkSppbAjEey5oqwSbPEpDnBzvKke+cDdHYZ3L02DH/M27V0XQ6o++9YB/4y7puXcgsfQ/K+pxuutGuH7jH
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
     useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -44,6 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Routerctc_OT
+    - ConnectionDB_OT
+    - FaultTrack_OT
     - ChennaiRouter_OT
     - VuforiaObjReco_OT
     - ONT
@@ -53,6 +56,9 @@ MonoBehaviour:
     - UserInterface
     - ArLearn
     dataSetsToActivate:
+    - Routerctc_OT
+    - ConnectionDB_OT
+    - FaultTrack_OT
     - ChennaiRouter_OT
     - ArLearn
     - ArLearn_OT
