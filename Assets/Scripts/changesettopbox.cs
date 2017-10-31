@@ -81,11 +81,12 @@ public class changesettopbox : MonoBehaviour {
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime3.Stop();
-					 
+					 coax.SetActive(true);
 					 break;
 	        		}
 			case 1: {
 					prevShow.GetComponent<Text>().enabled = true;
+					coax.SetActive(false);
 					power.SetActive (true); 
 					anime1.Stop();
 					 anime3.Stop();
@@ -93,7 +94,8 @@ public class changesettopbox : MonoBehaviour {
 					 anime2.Play(); break;
 					 }
 			case 2: {
-					power.SetActive (true);
+					coax.SetActive(false);
+					power.SetActive (false);
 					rca.SetActive (true);
 				     anime1.Stop();
 					 anime2.Rewind();
@@ -103,8 +105,8 @@ public class changesettopbox : MonoBehaviour {
 					  break;
 					}
 			case 3: {
-				    power.SetActive (true);
-					rca.SetActive (true);
+				    power.SetActive (false);
+					rca.SetActive (false);
 					hdmi.SetActive (true);
 				     anime1.Stop();
 					 anime2.Stop();
@@ -176,6 +178,7 @@ public class changesettopbox : MonoBehaviour {
 	        		}
 			case 1: {
 					prevShow.GetComponent<Text>().enabled = true; 
+					coax.SetActive(false);
 					 power.SetActive (true);
 					 rca.SetActive (false);
 					 hdmi.SetActive (false);
@@ -185,7 +188,7 @@ public class changesettopbox : MonoBehaviour {
 					 anime2.Play(); break;
 					 }
 			case 2: {
-					power.SetActive (true);
+					power.SetActive (false);
 					rca.SetActive (true);
 					hdmi.SetActive (false);
 				     anime1.Stop();
@@ -195,10 +198,10 @@ public class changesettopbox : MonoBehaviour {
 					  break;
 					}
 			case 3: {
-				   	 coax.SetActive (true); 
+				   	 coax.SetActive (false); 
 					 hdmi.SetActive (true); 
-					 power.SetActive (true);
-					 rca.SetActive (true);
+					 power.SetActive (false);
+					 rca.SetActive (false);
 					 stb.SetActive (true);
 					 tv.SetActive(false);
 					 tvfurniture.SetActive(false);

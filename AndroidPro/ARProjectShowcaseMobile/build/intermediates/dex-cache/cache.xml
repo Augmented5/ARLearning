@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="95f5205a17a7546c265d4a27d1e6f8be7b6f3f03">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\build\intermediates\pre-dexed\debug\VuforiaUnityPlayer_208ffda89f462c5d72e7f71da25d20371f024634.jar" />
+    </item>
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\libs\Vuforia.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="be3db5d282d7094986c342631085ca4d84c02603">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\build\intermediates\pre-dexed\debug\Vuforia_a4216334082b0c08c0d15900131bee8b8922d594.jar" />
+    </item>
+    <item
+        jar="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\libs\unity-classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="4cdcec43cf45828036b0a12c88602e60520eac00">
+        <dex dex="C:\Users\TEST\Documents\Abhishek_AR\ARProjectShowcaseMobile\build\intermediates\pre-dexed\debug\unity-classes_108f7905d4a7dc8f64a4ca2d689cd478882b5f8b.jar" />
+    </item>
+
+</items>

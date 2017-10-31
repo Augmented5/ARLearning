@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\TEST\\Documents\\Abhishek_AR\\ARLearn\\ARLearn\\Arlearn\\ARlearn\\AndroidPro\\ARProjectShowcase\\ARProjectShowcase\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "C:\\Users\\TEST\\Documents\\Abhishek_AR\\ARLearn\\ARLearn\\Arlearn\\Arlearning\\ARLearning\\AndroidPro\\ARProjectShowcase\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "C:\\Users\\TEST\\Documents\\Abhishek_AR\\ARLearn\\ARLearn\\Arlearn\\ARlearn\\AndroidPro\\ARProjectShowcase\\ARProjectShowcase\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "C:\\Users\\TEST\\Documents\\Abhishek_AR\\ARLearn\\ARLearn\\Arlearn\\Arlearning\\ARLearning\\AndroidPro\\ARProjectShowcase\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 0,

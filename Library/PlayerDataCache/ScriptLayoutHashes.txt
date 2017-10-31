@@ -120,8 +120,9 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActiveStateToggler
 3048bc7c3b5a3e0f4fcdda809abcd1b4 Assembly-CSharp.dll:.changesettopbox
 215f21c984a05428dd33c8419e0a1c57 Assembly-CSharp.dll:Vuforia.SurfaceBehaviour
-dfa5596ad1f0458a3ab8e09e5a5cef72 Assembly-CSharp.dll:.changeReal
+61702ca03d4926d5af5a0c0626b3ebb6 Assembly-CSharp.dll:.changeReal
 c1465577256149eb2fdaaf3754ab7da9 Assembly-CSharp.dll:.TiltWindow
+bf20e89962b8f0a3b8cc28cfebcb4390 Assembly-CSharp.dll:.changeRealFaultTrack
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule

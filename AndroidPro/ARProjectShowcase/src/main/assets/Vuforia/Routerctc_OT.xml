@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <Tracking>
+    <ObjectTarget name="fevistick" />
+    <ObjectTarget name="PartialRouter" />
+    <ObjectTarget name="TrackRouterModel3" />
+    <ObjectTarget name="TrackRouterModel2" />
+  </Tracking>
+</QCARConfig>

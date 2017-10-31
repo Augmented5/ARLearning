@@ -53,7 +53,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
-            android:name="com.abhishek.ARlearn.UnityPlayerNativeActivity"
+            android:name="com.abhishek.ARlearn.UnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -92,7 +92,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="43052199-bf0a-41ec-93eb-eeb6fca19337" />
+            android:value="13eb8a59-b702-432c-a78a-10c72aafa96d" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

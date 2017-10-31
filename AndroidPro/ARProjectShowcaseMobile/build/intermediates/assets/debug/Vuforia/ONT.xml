@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ONTPic" size="15.000000 13.090909" />
+    <ImageTarget name="ONT2" size="15.000000 11.180982" />
+    <ImageTarget name="ONT1" size="15.000000 7.710938" />
+  </Tracking>
+</QCARConfig>

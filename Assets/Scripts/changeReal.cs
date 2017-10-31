@@ -75,6 +75,7 @@ public class changeReal : MonoBehaviour {
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
+					 virtualRouter.SetActive(false);
 					 ethernet.SetActive (false);         // setting models enable
 					 dsl.SetActive (true); 
 					 power.SetActive (false);
@@ -84,6 +85,7 @@ public class changeReal : MonoBehaviour {
 				     anime1.Stop();
 					 anime4.Stop();
 					 anime2.Play();
+					 virtualRouter.SetActive(false);
 					 ethernet.SetActive (false);         // setting models enable
 					 dsl.SetActive (false); 
 					 power.SetActive (true);
@@ -93,6 +95,7 @@ public class changeReal : MonoBehaviour {
 				     anime1.Stop();
 					 anime2.Stop();
 					 anime4.Play();
+					  virtualRouter.SetActive(false);
 					 ethernet.SetActive (true);         // setting models enable
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
@@ -134,6 +137,7 @@ public class changeReal : MonoBehaviour {
 					 anime1.Stop();
 					 anime2.Stop();
 					 anime4.Stop();
+					  virtualRouter.SetActive(true);
 					 ethernet.SetActive (false);         // setting models enable
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
@@ -144,6 +148,7 @@ public class changeReal : MonoBehaviour {
 					 anime2.Stop();
 					 anime4.Stop();
 					 anime1.Play();
+					  virtualRouter.SetActive(false);
 					 ethernet.SetActive (false);         // setting models enable
 					 dsl.SetActive (true); 
 					 power.SetActive (false);
@@ -153,6 +158,7 @@ public class changeReal : MonoBehaviour {
 				     anime1.Stop();
 					 anime4.Stop();
 					 anime2.Play();
+					  virtualRouter.SetActive(false);
 					 ethernet.SetActive (false);         // setting models enable
 					 dsl.SetActive (false); 
 					 power.SetActive (true);
@@ -167,7 +173,7 @@ public class changeReal : MonoBehaviour {
 					 dsl.SetActive (false); 
 					 power.SetActive (false);
 					 computer.SetActive (false); 	
-				     virtualRouter.SetActive(true);
+				     virtualRouter.SetActive(false);
 					 break;
 					}
 			case 4: {
@@ -176,6 +182,7 @@ public class changeReal : MonoBehaviour {
 					 anime4.Stop();
 					 ethernet.SetActive (false);
 					 computer.SetActive (true); 
+					  virtualRouter.SetActive(false);
 					 nextShow.GetComponent<Text>().enabled = false;
 					
 					 break;
